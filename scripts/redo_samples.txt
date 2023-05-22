@@ -1,0 +1,4 @@
+/gxfs_work1/geomar/smomw504/seasonal_adaptation/raw_data/trimmed/221000001029-H01_22Oct1029-H01-L1_S16_L003_R1_001_val_1.fq.gz
+/gxfs_work1/geomar/smomw504/seasonal_adaptation/raw_data/trimmed/221000001029-B01_22Oct1029-B01-L1_S4_L003_R1_001_val_1.fq.gz
+/gxfs_work1/geomar/smomw504/seasonal_adaptation/raw_data/trimmed/221000001029-A01_22Oct1029-A01-L1_S1_L003_R1_001_val_1.fq.gz
+/gxfs_work1/geomar/smomw504/seasonal_adaptation/raw_data/trimmed/221000001029-F02_22Oct1029-F02-L1_S13_L003_R1_001_val_1.fq.gz
