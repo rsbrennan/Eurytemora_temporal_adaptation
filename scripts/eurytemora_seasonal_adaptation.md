@@ -1,8 +1,5 @@
 # eurytemora season adaptation
 
-* auto-gen TOC:
-{:toc}
-
 Short description of samples etc here
 
 # data wrangling
