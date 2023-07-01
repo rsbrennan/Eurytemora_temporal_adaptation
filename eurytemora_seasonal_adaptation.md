@@ -26,6 +26,9 @@ lat long of samples: 54.34289 N, 9.96995 E
 | 2022 | 3          | 2022-05-11 | EA_2022_T3    | D02         |
 | 2022 | 4          | 2022-05-24 | EA_2022_T4    | C01         |
 
+
+See also this goggle sheet with more info: https://docs.google.com/spreadsheets/d/1rwjp2vKWlgOH5ls_urInrM5CICtXun3Eu4-0Vfnj6Gg/edit?usp=sharing
+
 # data wrangling
 
 data returned jan 20 2023. Sequenced at CCGA at CAU. 
