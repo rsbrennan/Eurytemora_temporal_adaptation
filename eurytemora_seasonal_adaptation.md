@@ -1,6 +1,30 @@
 # eurytemora season adaptation
 
-Short description of samples etc here
+Raw data: `/gxfs_work1/geomar/smomw504/seasonal_adaptation/raw_data/`
+
+Find sample ids that link fastq file names to sample names here: `/gxfs_work1/geomar/smomw504/seasonal_adaptation/raw_data/sample_names.txt`
+
+lat long of samples: 54.34289 N, 9.96995 E
+
+| Year | Sample_num | Date       | ID 		 | sample_well |
+|------|------------|------------|---------------|-------------|
+| 2007 | 1          | 2007-04-30 | EA_2007_T1    | B02         |
+| 2007 | 2          | 2007-05-07 | EA_2007_T2    | G01         |
+| 2009 | 1          | 2009-04-07 | EA_2009_T1    | A03         |
+| 2009 | 2          | 2009-04-21 | EA_2009_T2    | E02         |
+| 2009 | 3          | 2009-05-05 | EA_2009_T3    | A01         |
+| 2009 | 4          | 2009-05-19 | EA_2009_T4    | D01         |
+| 2011 | 1          | 2011-04-05 | EA_2011_T1    | F02         |
+| 2011 | 2          | 2011-04-19 | EA_2011_T2    | A02         |
+| 2011 | 3          | 2011-05-03 | EA_2011_T3    | G02         |
+| 2015 | 1          | 2015-04-08 | EA_2015_T3    | B01         |
+| 2015 | 2          | 2015-04-23 | EA_2015_T2    | H01         |
+| 2015 | 3          | 2015-05-12 | EA_2015_T1    | C02         |
+| 2015 | 4          | 2015-06-02 | EA_2015_T4    | F01         |
+| 2022 | 1          | 2022-04-13 | EA_2022_T1    | H02         |
+| 2022 | 2          | 2022-04-27 | EA_2022_T2    | E01         |
+| 2022 | 3          | 2022-05-11 | EA_2022_T3    | D02         |
+| 2022 | 4          | 2022-05-24 | EA_2022_T4    | C01         |
 
 # data wrangling
 
@@ -34,9 +58,6 @@ All good.
 Done on June 14, 2023
 
 PRJNA982701
-
-lat long of samples: 54.34289 N, 9.96995 E
-
 
 ```bash
 
