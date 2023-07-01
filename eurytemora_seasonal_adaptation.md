@@ -141,6 +141,7 @@ write.table(dat, file="~/Documents/GEOMAR/seasonal_adaptation/stat_summary.txt",
 
 This bias is pretty typical in older samples. We will have to deal with this- masking those sites? Pinsky's papers have dealt with these issues.
 
+maybe considger MAPDAMAGE (Ginolhac et al., 2011; Jónsson et al., 2013) and DAMAGEPROFILER (Neukamm et al., 2020).
 
 ## trim
 
@@ -164,12 +165,12 @@ I think steps are- align to pseudo ref, call snps, then use the code below to ge
 
 https://github.com/TheDBStern/Baltic_Lab_Wild/blob/master/snp_calling/get_SNP_position_in_genome.py
 
-
-Script to convert SNP positions called in one reference genome to approximate position in another genome based on blast results
-parser.add_argument('-i', dest = 'snps', type = str, required=True,  help = 'input snp file, format `transcript position`')
-parser.add_argument('-b', dest = 'blast', type = str, required=True,  help = 'input blast output file, outfmt 6')
-parser.add_argument('-o', dest = 'out', type = str, required=True,  help = 'output converted SNP file')
-
+```
+Script to convert SNP positions called in one reference genome to approximate position in another genome based on blast results  
+parser.add_argument('-i', dest = 'snps', type = str, required=True,  help = 'input snp file, format `transcript position`')  
+parser.add_argument('-b', dest = 'blast', type = str, required=True,  help = 'input blast output file, outfmt 6')  
+parser.add_argument('-o', dest = 'out', type = str, required=True,  help = 'output converted SNP file')  
+```
 
 ### map
 
@@ -181,7 +182,6 @@ align:
 
 `align.sh`
 
-
 ### call snps
 
 #### make mpileup
@@ -192,7 +192,18 @@ align:
 
 `snpCall.sh`
 
-returns 
+Need to think if this is how we want to do this. Perhaps grenedalf/grenepipe can also call snps? https://github.com/lczech/grenedalf or maybe https://github.com/moiexpositoalonsolab/grenepipe/wiki
+
+
+https://arxiv.org/pdf/2306.11622.pdf
+
+https://doi.org/10.1093/bioinformatics/btac600
+
+http://dx.doi.org/10.1101/2022.02.02.477408
+
+https://www.biorxiv.org/content/10.1101/2022.02.02.477408v2.full
+
+Maybe try SNAPE?
 
 
 #### filter snps
